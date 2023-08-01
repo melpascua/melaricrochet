@@ -1,0 +1,118 @@
+aside {
+    background-color: aqua;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #c7772c;
+        font-weight: 1000;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #c7772c;
+        font-weight: 1000;
+    }
+}
+
+.amigurumis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 450px;
+        width: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.mas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px #e8833a solid;
+
+    small {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #e8833a;
+        font-weight: bolder;
+        text-align: center;
+    }
+}
+
+.otras-secciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        h2 {
+            font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #c7772c;
+            font-weight: 1000;
+        }
+
+        img {
+            height: 450px;
+            width: 450px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+.redes-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        text-align: center;
+        background-color: white;
+        margin: 10px;
+        padding: 50px 75px 50px 75px;
+
+        img {
+            height: 120px;
+            background-color: white;
+            width: 240px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            background-color: white;
+            font-size: 30px;
+            width: 310px;
+            line-height: 45px;
+        }
+
+        button {
+            background-color: white;
+            margin-top: 40px;
+            color: gray;
+            font-size: medium;
+            font-weight: 900;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 15px 10px 15px;
+        }
+
+    }
+}
