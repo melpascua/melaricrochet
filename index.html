@@ -9,106 +9,125 @@
     <title>Melari Crochet</title>
 </head>
 
-<header>
-    <div class="redes-sociales">
-        <a href=""><img src="./img/instagram-arriba.png" alt="instagram-logo"></a>
-        <a href=""><img src="./img/facebook-arriba.png" alt="facebook-logo"></a>
-        <a href=""><img src="./img/pinterest-arriba.png" alt="pinterest-logo"></a>
-        <a href=""><img src="./img/youtube-arriba.png" alt="youtube-logo"></a>
-    </div>
-    <div class="logo">
-        <img src="./img/definitivo.jpg" alt="logo">
-    </div>
-    <div class="linkeos">
+<body>
+    <header>
+        <div class="redes-sociales">
+            <a href=""><img src="./img/instagram-arriba.png" alt="instagram-logo"></a>
+            <a href=""><img src="./img/facebook-arriba.png" alt="facebook-logo"></a>
+            <a href=""><img src="./img/pinterest-arriba.png" alt="pinterest-logo"></a>
+            <a href=""><img src="./img/youtube-arriba.png" alt="youtube-logo"></a>
+        </div>
+        <div class="logo">
+            <img src="./img/definitivo.jpg" alt="logo">
+        </div>
         <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Amigurumis</a></li>
-                <li><a href="">Patrones</a></li>
-                <li><a href="">Tienda</a></li>
-                <li><a href="">Contacto</a></li>
-                <li class="busqueda">
-                    <form>
-                        <input type="search" placeholder="Buscar" aria-label="Search">
-                        <button type="submit">Search</button>
-                    </form>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/amigurumis.html">Amigurumis</a>
+                    <ul class="desplegable">
+                        <li><a href="">Animales</a></li>
+                        <li id="bordes"><a href="">Personajes</a></li>
+                        <li><a href="">Muñecas</a></li>
+                        <li id="bordes"><a href="">Otros</a></li>
+                    </ul>
                 </li>
+                <li><a href="">Patrones</a>
+                    <ul class="desplegable">
+                        <li id="bordes"><a href="">Opción 1</a></li>
+                        <li><a href="">Opción 2</a></li>
+                        <li id="bordes"><a href="">Opción 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Tienda</a>
+                    <ul class="desplegable">
+                        <li id="bordes"><a href="">Opción 1</a></li>
+                        <li><a href="">Opción 2</a></li>
+                        <li id="bordes"><a href="">Opción 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contacto</a></li>
             </ul>
+            <form>
+                <input type="search" placeholder="Buscar" aria-label="Search">
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></button>
+            </form>
         </nav>
+    </header>
 
-    </div>
-</header>
-
-<main>
-    <section class="principal">
-        <div class="titulos">
-            <h1 id="titulo">DESTACADOS</h1>
-            <h2>PATRONES GRATIS</h2>
-            <small>MOSTRAR MÁS ⮕</small>
-        </div>
-        <div class="amigurumis">
-            <img src="./img/mew.jpg">
-            <img src="./img/patoraro.jpg">
-            <img src="./img/totoro.jpeg" alt="amigurumi">
-        </div>
-    </section>
-    <section>
-        <div class="titulos">
-            <h2 id="titulo">DESTACADOS</h2>
-            <h2>TIENDA</h2>
-            <small>MOSTRAR MÁS ⮕</small>
-        </div>
-        <div class="amigurumis">
-            <img src="./img/mew.jpg">
-            <img src="./img/patoraro.jpg">
-            <img src="./img/totoro.jpeg" alt="amigurumi">
-    </section>
-    <section class="mas amigurumis">
-        <div>
-            <h2>TIENDA</h2>
-            <img src="./img/vaporeon.jpg" alt="">
-        </div>
-        <div>
-            <h2 class="titulo">AMIGURUMIS</h2>
-            <img src="./img/rana.jpg" alt="">
-        </div>
-        <div>
-            <h2 class="titulo">PATRONES</h2>
-            <img src="./img/bluey.jpg" alt="">
-        </div>
-    </section>
-    <div class="mostrar-mas">
-        <small>MOSTRAR MÁS ⮕</small>
-        <small>MOSTRAR MÁS ⮕</small>
-        <small>MOSTRAR MÁS ⮕</small>
-    </div>
-    <section>
-        <div class="redes-section">
-            <div id="general">
-                <h3 id="general">SÍGUENOS EN NUESTRAS <br> <span> REDES SOCIALES </span></h3>
-                <img src="./img/youtube-abajo.png" alt="youtube-logo">
-                <img src="./img/instagram-abajo.png" alt="instagram-logo">
-                <img src="./img/facebook-abajo.png" alt="facebook-logo">
-                <img src="./img/pinterest-abajo.png" alt="pinterest-logo">
+    <main>
+        <section class="principal">
+            <div class="titulos">
+                <h1 id="titulo">DESTACADOS</h1>
+                <h2>PATRONES GRATIS</h2>
+                <small>MOSTRAR MÁS ⮕</small>
+            </div>
+            <div class="amigurumis">
+                <img src="./img/mew.jpg">
+                <img src="./img/patoraro.jpg">
+                <img src="./img/totoro.jpeg" alt="amigurumi">
+            </div>
+        </section>
+        <section>
+            <div class="titulos">
+                <h2 id="titulo">DESTACADOS</h2>
+                <h2>TIENDA</h2>
+                <small>MOSTRAR MÁS ⮕</small>
+            </div>
+            <div class="amigurumis">
+                <img src="./img/mew.jpg">
+                <img src="./img/patoraro.jpg">
+                <img src="./img/totoro.jpeg" alt="amigurumi">
+        </section>
+        <section class="mas amigurumis">
+            <div>
+                <h2>TIENDA</h2>
+                <img src="./img/vaporeon.jpg" alt="">
             </div>
             <div>
-                <img src="./img/youtubemain.png" alt="cuenta-de-youtube">
-                <h3>Síguenos en YouTube si quieres ver nuestros videotutoriales.</h3>
+                <h2 class="titulo">AMIGURUMIS</h2>
+                <img src="./img/rana.jpg" alt="">
             </div>
             <div>
-                <img src="./img/nombreig.png" alt="cuenta-de-instagram">
-                <h3>Síguenos en Instagram para estar al día con nuestro trabajo.</h3>
+                <h2 class="titulo">PATRONES</h2>
+                <img src="./img/bluey.jpg" alt="">
             </div>
+        </section>
+        <div class="mostrar-mas">
+            <small>MOSTRAR MÁS ⮕</small>
+            <small>MOSTRAR MÁS ⮕</small>
+            <small>MOSTRAR MÁS ⮕</small>
         </div>
-    </section>
+        <section>
+            <div class="redes-section">
+                <div id="general">
+                    <h3 id="general">SÍGUENOS EN NUESTRAS <br> <span> REDES SOCIALES </span></h3>
+                    <img src="./img/youtube-abajo.png" alt="youtube-logo">
+                    <img src="./img/instagram-abajo.png" alt="instagram-logo">
+                    <img src="./img/facebook-abajo.png" alt="facebook-logo">
+                    <img src="./img/pinterest-abajo.png" alt="pinterest-logo">
+                </div>
+                <div>
+                    <img src="./img/youtubemain.png" alt="cuenta-de-youtube">
+                    <h3>Síguenos en YouTube si quieres ver nuestros videotutoriales.</h3>
+                </div>
+                <div>
+                    <img src="./img/nombreig.png" alt="cuenta-de-instagram">
+                    <h3>Síguenos en Instagram para estar al día con nuestro trabajo.</h3>
+                </div>
+            </div>
+        </section>
 
-</main>
+    </main>
 
-<footer>
-    <div>
-        <h3>Nuevo Aroma © todos los derechos reservados 2022</h3>
-    </div>
-</footer>
+    <footer>
+        <div>
+            <h3>Nuevo Aroma © todos los derechos reservados 2022</h3>
+        </div>
+    </footer>
 </body>
 
 </html>

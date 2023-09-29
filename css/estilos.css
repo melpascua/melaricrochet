@@ -15,8 +15,8 @@
     .redes-sociales a img {
       width: 40px;
       height: 40px;
-      margin-right: 5px;
-      margin-left: 5px;
+      margin-right: 10px;
+      margin-left: 10px;
       margin-bottom: 10px;
       margin-top: 10px;
       background-color: #d76800; }
@@ -27,23 +27,22 @@
   background-color: #ffe5a3; }
   .logo img {
     width: 220px;
-    height: 165px;
-    margin-bottom: 5px;
-    margin-top: 5px; }
+    height: 165px; }
 
-.linkeos nav ul {
+.menu {
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 2px black solid;
   border-top: 2px black solid;
-  background-color: #ffbfa0; }
-  .linkeos nav ul li {
+  background-color: #ffbfa0;
+  text-align: center; }
+  .menu li {
     list-style: none;
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: #ffbfa0; }
-    .linkeos nav ul li a {
+    .menu li a {
       text-decoration: none;
       color: black;
       margin-right: 30px;
@@ -51,6 +50,56 @@
       font-size: 25px;
       font-weight: 800;
       background-color: #ffbfa0; }
+      .menu li a:hover {
+        color: #94523b;
+        transition: all .3s; }
+    .menu li:hover .desplegable {
+      display: block; }
+
+.desplegable {
+  position: absolute;
+  background-color: white;
+  display: none;
+  min-width: 140px;
+  border-right: 2px black solid;
+  border-left: 2px black solid;
+  border-top: none; }
+  .desplegable li {
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .desplegable li a {
+      display: block;
+      background-color: white; }
+
+#bordes {
+  border-bottom: black solid 2px;
+  border-top: black solid 2px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+form {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 250px;
+  left: 1600px; }
+  form input {
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+    border-right: none;
+    border-color: black; }
+  form button {
+    padding: 10px 10px 10px 10px;
+    border-left: none;
+    border-color: black; }
+    form button svg {
+      width: 20px;
+      height: 20px; }
 
 .titulos {
   display: flex;
@@ -155,6 +204,54 @@
     background-color: #ffebbf;
     position: relative;
     bottom: 40px; }
+
+/*----AMIGURUMIS----*/
+.titulo-amigurumis {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px; }
+  .titulo-amigurumis h1 {
+    font-size: 35px;
+    color: black;
+    font-weight: 5000; }
+  .titulo-amigurumis small {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    align-self: flex-end;
+    position: relative;
+    bottom: 15px;
+    right: 400px; }
+
+.seccion-personaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center; }
+  .seccion-personaje img {
+    height: 400px;
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .seccion-personaje h2 {
+    color: #9e6554;
+    font-size: 30px;
+    font-weight: 5000;
+    margin-top: 20px;
+    margin-bottom: 8px; }
+  .seccion-personaje h3 {
+    color: #9e6554;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .seccion-personaje small {
+    color: black;
+    font-size: 20px;
+    padding-left: 20px; }
 
 footer {
   margin-top: 20px;
